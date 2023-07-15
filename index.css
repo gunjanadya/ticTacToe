@@ -1,0 +1,47 @@
+body {
+  background: pink;
+  color: pink;
+  margin: 0px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#resetButton {
+  background-color: rgb(161, 232, 255);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+label {
+  background-color: rgb(172, 255, 161);
+  color: white;
+  margin: 5px 1px;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+#gridControls{
+  margin: 10px;  
+}
+
+#gridMain {
+  height: 90vh;
+  width: 100%;
+}
+
+.gridSquare {
+  background-color: white;
+  text-align: center;
+  height: 33%;
+  width: 33%;
+  font-size: 20vmin;
+}
+
